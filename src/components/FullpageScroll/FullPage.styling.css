@@ -1,0 +1,13 @@
+.FullPage-container {
+    height: 100vh;
+    width: 100%;
+    overflow-y: scroll;
+    scroll-snap-type:y mandatory;
+}
+
+.FullPage-section{
+    width: 100%;
+    height: 100vh;
+    scroll-snap-align: start;
+    
+}
