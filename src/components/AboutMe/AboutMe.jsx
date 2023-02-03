@@ -7,10 +7,9 @@ import Particles from './Particles';
 
 const AboutMe = () => {
     const img = useRef(null);
-    const [hover, setHover] = useState(false);
     const [mousePos, setMousePos] = useState({});
     const [photo,setPhoto] = useState(null);
-    const [offset , setOffset] = useState(20);
+    
 
     useEffect(() => {
         const handleMouseMove = (event) => {
@@ -44,7 +43,6 @@ const AboutMe = () => {
             img.current.style.width = '30rem';
             setPhoto(hurghada);
         }
-        setHover(true);
     }
     const handleLeave = (e) => {
         setPhoto(undefined);
