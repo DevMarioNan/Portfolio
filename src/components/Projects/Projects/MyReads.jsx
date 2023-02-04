@@ -22,9 +22,7 @@ const MyReads = () => {
                             <div className='technologies flex gap-4 flex-wrap'>
                                 <img src={`https://skillicons.dev/icons?i=javascript`} alt="" className='w-12' />
                                 <img src={`https://skillicons.dev/icons?i=react`} alt="" className='w-12' />
-                                <img src={`https://skillicons.dev/icons?i=redux`} alt="" className='w-12' />
-                                <img src={`https://skillicons.dev/icons?i=tailwind`} alt="" className='w-12' />
-                                <img src={`https://skillicons.dev/icons?i=firebase`} alt="" className='w-12' />
+                                <img src={`https://skillicons.dev/icons?i=materialui`} alt="" className='w-12' />
                                 <img src={`https://skillicons.dev/icons?i=vercel`} alt="" className='w-12' />
                             </div>
                         </div>
