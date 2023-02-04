@@ -27,8 +27,8 @@ const MyReads = () => {
                             </div>
                         </div>
                     <div className='links flex gap-4'>
-                            <a href="https://url-shortener-pi-seven.vercel.app/" target="_blank" rel="noreferrer" className='text-white  text-3xl font-bold'>Live Demo <FiExternalLink className='inline'/></a>
-                            <a href="https://github.com/DevMarioNan/url-shortener " target="_blank" rel="noreferrer" className='text-white  text-3xl font-bold'>Github <FiExternalLink className='inline'/></a>
+                            <a href="https://myreads-rosy.vercel.app/" target="_blank" rel="noreferrer" className='text-white  text-3xl font-bold'>Live Demo <FiExternalLink className='inline'/></a>
+                            <a href="https://github.com/DevMarioNan/myreads" target="_blank" rel="noreferrer" className='text-white  text-3xl font-bold'>Github <FiExternalLink className='inline'/></a>
                         </div>
                     </div>
                 </div>
