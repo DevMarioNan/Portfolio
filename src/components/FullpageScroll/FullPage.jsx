@@ -3,6 +3,7 @@ import './FullPage.styling.css'
 import AboutMe from '../AboutMe/AboutMe'
 import Skills from '../Skills/Skills'
 import Projects from '../Projects/Projects'
+import Contact from '../Contact/Contact'
 
 const FullPage = () => {
     return (
@@ -10,9 +11,7 @@ const FullPage = () => {
             <AboutMe />
             <Skills />
             <Projects />
-            <div className="FullPage-section">
-                <h1>Section 4</h1>
-            </div>
+            <Contact />
         </div>
     )
 }
