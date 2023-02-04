@@ -55,7 +55,7 @@ const AboutMe = () => {
 
             <img ref={img} src={photo} alt="" className="w-96 absolute rounded-xl z-20"/>
             <div className="z-10">
-                <h1 className="text-white text-4xl text-center ">
+                <h1 className="text-white text-lg md:text-4xl text-center ">
                     Hey, I'm <span
                         className="underline font-bold "
                         onMouseEnter={(e) => handleHover(e,true)}
@@ -63,7 +63,7 @@ const AboutMe = () => {
                     >Mario Nan</span> ,a Software Engineer
                 </h1>
                 <br />
-                <h1 className="text-white text-4xl text-center ">
+                <h1 className="text-white text-lg md:text-4xl text-center ">
                     currently based in <span
                         className="underline font-bold"
                         onMouseEnter={(e) => handleHover(e,false)}
