@@ -6,7 +6,7 @@ const Skills = () => {
     const Miscellaneous = ['git','github','heroku','netlify','vscode','jest']
 
     return (
-        <div className='FullPage-section bg-black flex flex-col items-center'>
+        <div className='FullPage-section bg-black flex flex-col items-center pb-40'>
             <h1 className='text-white text-center pt-10 text-6xl font-bold'>SKILLS</h1>
             
             <h1 className='text-white text-left text-4xl font-bold pt-10'>Front-End</h1>
@@ -37,7 +37,7 @@ const Skills = () => {
                         <p className='text-white text-lg'>{skill}</p>
                     </div>
                 ))}
-                <div className='flex flex-col justify-center items-center gap-4 pb-4'>
+                <div className='flex flex-col justify-center items-center gap-4 '>
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" className='w-20' alt="npm logo"  />
                     <p className='text-white text-lg'>NPM</p>
                 </div>
