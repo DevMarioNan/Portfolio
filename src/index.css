@@ -11,6 +11,6 @@
     box-sizing: border-box;
 }
 
-body{
+html,body{
     font-family: 'Roboto Condensed', sans-serif;
 }
