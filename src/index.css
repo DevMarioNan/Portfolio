@@ -13,5 +13,9 @@
 
 html,body{
     font-family: 'Roboto Condensed', sans-serif;
-    
+}
+
+
+body{
+    overflow-x: hidden;
 }
