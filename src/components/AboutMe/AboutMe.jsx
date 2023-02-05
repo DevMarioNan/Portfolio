@@ -56,7 +56,7 @@ const AboutMe = () => {
                         className="underline font-bold "
                         onMouseEnter={(e) => handleHover(e,true)}
                         onMouseLeave={(e) => handleLeave(e)}
-                    >Mario Nan</span> , I'm a Front-End Engineer
+                    >Mario Nan</span> , I'm a Front-End Software Engineer
                 </h1>
                 
             </div>
