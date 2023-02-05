@@ -2,8 +2,9 @@ import React from 'react'
 import Navbar from '../Navbar/Navbar'
 import { useEffect, useState, useRef } from 'react';
 import me from './me.png'
-
 import Particles from './Particles';
+
+
 
 const AboutMe = () => {
     const img = useRef(null);
@@ -12,6 +13,8 @@ const AboutMe = () => {
     
 
     useEffect(() => {
+        
+
         const handleMouseMove = (event) => {
             setMousePos({ x: event.clientX, y: event.clientY });
         };
