@@ -11,7 +11,7 @@ const Contact = () => {
     
     useEffect(() => {
         AOS.init({
-            duration: 1000,
+            duration: 1500,
             offset:120
         });
         AOS.refresh();
@@ -19,7 +19,7 @@ const Contact = () => {
 
     return (
         <div className='FullPage-section bg-black flex flex-col justify-center items-center relative'>
-            <h1 className='text-white text-3xl md:text-6xl font-bold text-center absolute top-10' data-aos="fade">CONTACT ME</h1>
+            <h1 className='text-white text-3xl md:text-6xl font-bold text-center absolute top-10' data-aos="fade" >CONTACT ME</h1>
             <div className=" flex justify-between gap-10 text-white text-5xl md:text-7xl" data-aos="fade-up">
                 <a href="https://github.com/DevMarioNan" target="_blank" ><AiFillGithub /></a>
                 <a href="https://www.linkedin.com/in/marionan" target="_blank" ><AiFillLinkedin /></a>
