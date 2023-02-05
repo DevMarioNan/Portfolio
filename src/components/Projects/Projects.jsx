@@ -20,7 +20,7 @@ const Projects = () => {
     }, []);
 
     return (
-        <div className='FullPage-section bg-black flex flex-col items-center pb-32'>
+        <div className='FullPage-section bg-black flex flex-col items-center pb-10'>
             <h1 className='text-white text-center pt-10 text-3xl md:text-6xl font-bold' data-aos="fade">PROJECTS</h1>
             <URLShotener />
             <Line />
