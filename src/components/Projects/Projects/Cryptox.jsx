@@ -38,7 +38,7 @@ const Cryptox = () => {
                             </div>
                         </div>
                         <div className='links flex gap-4' data-aos="fade-left">
-                            <a href="https://cryptox-sigma.vercel.app" target="_blank" rel="noreferrer" className='text-white text-xl md:text-3xl font-bold ' data-aos="fade-left">Live Demo <FiExternalLink className='inline' /></a>
+                            <a href="https://cryptox-psi.vercel.app" target="_blank" rel="noreferrer" className='text-white text-xl md:text-3xl font-bold ' data-aos="fade-left">Live Demo <FiExternalLink className='inline' /></a>
                             <a href="https://github.com/DevMarioNan/cryptox" target="_blank" rel="noreferrer" className='text-white text-xl md:text-3xl font-bold ' data-aos="fade-left">Github <FiExternalLink className='inline' /></a>
                         </div>
                     </div>
