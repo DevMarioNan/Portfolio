@@ -3,7 +3,7 @@ import { FiExternalLink } from 'react-icons/fi'
 import Line from './util/Line'
 
 import URLShotener from './Projects/URLShotener'
-import Cryptox from './Projects/Cryptox'
+import SocialPath from './Projects/SocialPath'
 import MyReads from './Projects/MyReads'
 
 import "aos/dist/aos.css";
@@ -22,9 +22,9 @@ const Projects = () => {
     return (
         <div className='FullPage-section bg-black flex flex-col items-center pb-10'>
             <h1 className='text-white text-center pt-10 text-3xl md:text-6xl font-bold' data-aos="fade" >PROJECTS</h1>
-            <URLShotener />
+            <SocialPath />
             <Line />
-            <Cryptox />
+            <URLShotener />
             <Line />
             <MyReads />
             <Line />
