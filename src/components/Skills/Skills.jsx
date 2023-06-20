@@ -1,11 +1,11 @@
 import React,{useEffect} from 'react'
 import "aos/dist/aos.css";
 import AOS from "aos";
-
+import npmIcon from './npm.png'
 
 
 const Skills = () => {
-    const frontend = ['html', 'css', 'javascript', 'react', 'redux', 'materialui', 'tailwind', 'bootstrap'];
+    const frontend = ['html', 'css', 'javascript','typescript', 'react', 'redux', 'materialui', 'tailwind', 'bootstrap'];
     const backend = ['nodejs', 'express', 'mongodb', 'mysql', 'postgresql','firebase'];
     const Miscellaneous = ['git','github','heroku','netlify','vscode','jest']
     useEffect(() => {
@@ -49,7 +49,7 @@ const Skills = () => {
                     </div>
                 ))}
                 <div className='flex flex-col justify-center items-center gap-4 ' data-aos="fade-right" >
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" className='w-20 ' alt="npm logo"  />
+                    <img src={npmIcon} className='w-20 ' alt="npm logo"  />
                     <p className='text-white text-lg' >NPM</p>
                 </div>
             </div>

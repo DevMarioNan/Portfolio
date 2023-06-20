@@ -4,7 +4,7 @@ import Line from './util/Line'
 
 import URLShotener from './Projects/URLShotener'
 import SocialPath from './Projects/SocialPath'
-import MyReads from './Projects/MyReads'
+import SaintStream from './Projects/SaintStream'
 
 import "aos/dist/aos.css";
 import AOS from "aos";
@@ -22,11 +22,11 @@ const Projects = () => {
     return (
         <div className='FullPage-section bg-black flex flex-col items-center pb-10'>
             <h1 className='text-white text-center pt-10 text-3xl md:text-6xl font-bold' data-aos="fade" >PROJECTS</h1>
+            <SaintStream />
+            <Line />
             <SocialPath />
             <Line />
             <URLShotener />
-            <Line />
-            <MyReads />
             <Line />
 
             <a href="https://github.com/DevMarioNan?tab=repositories" target="_blank" data-aos="fade-up">
